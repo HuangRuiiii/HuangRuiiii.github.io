@@ -19,3 +19,10 @@ future: true
 
 # 文章的永久链接格式  
 permalink: /:categories/:year/:month/:day/:title.html  
+
+# 添加Markdown渲染设置
+markdown: kramdown  
+kramdown:  
+  math_engine: mathjax  
+  syntax_highlighter: rouge  
+  input: GFM

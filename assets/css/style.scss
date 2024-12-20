@@ -1,0 +1,45 @@
+---  
+---  
+
+@import "{{ site.theme }}";  
+
+// 增加内容宽度  
+.container {  
+  max-width: 1000px;  // 增加容器宽度  
+  margin: 0 auto;  
+  padding: 0 20px;  
+}  
+
+// 修复标题浮动问题  
+.post-header {  
+  margin-bottom: 30px;  
+  clear: both;  
+}  
+
+// 改善文章内容排版  
+.post-content {  
+  margin-bottom: 30px;  
+  
+  h1, h2, h3 {  
+    margin-top: 2em;  
+    margin-bottom: 1em;  
+  }  
+  
+  p {  
+    margin-bottom: 1.2em;  
+    line-height: 1.6;  
+  }  
+  
+  // 数学公式容器样式  
+  .MathJax_Display {  
+    margin: 1em 0;  
+    overflow-x: auto;  
+    overflow-y: hidden;  
+  }  
+}  
+
+// 修复公式溢出问题  
+.MathJax_Display {  
+  overflow-x: auto;  
+  overflow-y: hidden;  
+}
