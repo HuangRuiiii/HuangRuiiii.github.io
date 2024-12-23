@@ -571,37 +571,5 @@ footer {
     color: #444;
   }
 }
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.post-header {
-  margin-bottom: 30px;
-  clear: both;
-}
-
-.post-content {
-  margin-bottom: 30px;
-}
-.post-content h1, .post-content h2, .post-content h3 {
-  margin-top: 2em;
-  margin-bottom: 1em;
-}
-.post-content p {
-  margin-bottom: 1.2em;
-  line-height: 1.6;
-}
-.post-content .MathJax_Display {
-  margin: 1em 0;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
-.MathJax_Display {
-  overflow-x: auto;
-  overflow-y: hidden;
-}
 
 /*# sourceMappingURL=style.css.map */

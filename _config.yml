@@ -1,9 +1,8 @@
 theme: jekyll-theme-minimal
 title: Rui's Blog
-description: Write some blogs to record my learning process!
+description: Practice makes perfect.
 
-# 添加以下配置  
-baseurl: "" # 如果你的博客托管在 GitHub Pages 的根目录，保持为空  
+
 url: "https://huangruiiii.github.io" # 替换为你的 GitHub Pages URL  
 
 # 博客是否自动生成目录，false为不生成
