@@ -6,23 +6,35 @@ description: Write some blogs to record my learning process!
 baseurl: "" # 如果你的博客托管在 GitHub Pages 的根目录，保持为空  
 url: "https://huangruiiii.github.io" # 替换为你的 GitHub Pages URL  
 
-# 博客文章的默认配置  
-defaults:  
-  - scope:  
-      path: ""  
-      type: "posts"  
-    values:  
-      layout: "post"  
+# 博客是否自动生成目录，false为不生成
+enableToc: true
 
-# 显示未来的文章（可选）  
-future: true  
+social:
+  email: 24B951056@stu.hit.edu.cn
+  github: huangruiiii
 
-# 文章的永久链接格式  
-permalink: /:categories/:year/:month/:day/:title.html  
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
 
-# 添加Markdown渲染设置
-markdown: kramdown  
-kramdown:  
-  math_engine: mathjax  
-  syntax_highlighter: rouge  
-  input: GFM
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 技术支持, description: support, url: '/support'}      
+    - {title: 关于我, description: about, url: '/about'}   
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
